@@ -1,0 +1,101 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "id": 1,
+            "name": "test",
+            "domain": "Skyba.biz",
+            "phone": "332-49-48",
+            "street": "Bazzar",
+            "state": "TN",
+            "status": "Y"
+        }
+    ],
+    "required": [
+        "id",
+        "name",
+        "domain",
+        "phone",
+        "street",
+        "state",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "default": "",
+            "type": "integer",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "test"
+            ],
+            "title": "The id schema",
+            "minLength": 1
+        },
+        "name": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "test"
+            ],
+            "title": "The name schema",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "domain": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "Skyba.biz"
+            ],
+            "title": "The domain schema",
+            "minLength": 1,
+            "maxLength": 50,
+            "format": "uri"
+        },
+        "phone": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "332-49-48"
+            ],
+            "title": "The phone schema",
+            "minLength": 1,
+            "maxLength": 15
+        },
+        "street": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "Bazzar"
+            ],
+            "title": "The street schema",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "state": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "TN"
+            ],
+            "title": "The state schema",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "status": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "TN"
+            ],
+            "title": "The status schema",
+            "enum": ["Y","N"]
+        }
+    },
+    "additionalProperties": false
+}

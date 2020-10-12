@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "name": "test",
+            "domain": "Skyba.biz",
+            "phone": "332-49-48",
+            "street": "Bazzar",
+            "state": "TN"
+        }
+    ],
+    "required": [
+        "name",
+        "domain",
+        "phone",
+        "street",
+        "state"
+    ],
+    "properties": {
+        "name": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "test"
+            ],
+            "title": "The name schema",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "domain": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "Skyba.biz"
+            ],
+            "title": "The domain schema",
+            "minLength": 1,
+            "maxLength": 50,
+            "format": "uri"
+        },
+        "phone": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "332-49-48"
+            ],
+            "title": "The phone schema",
+            "minLength": 1,
+            "maxLength": 15,
+            "pattern": "^(\/([0-9]{3}\/)|[0-9]{3}-)[0-9]{3}-[0-9]{4}$"
+        },
+        "street": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "Bazzar"
+            ],
+            "title": "The street schema",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "state": {
+            "default": "",
+            "description": "An explanation about the purpose of this instance.",
+            "examples": [
+                "TN"
+            ],
+            "title": "The state schema",
+            "minLength": 1,
+            "maxLength": 50
+        }
+    },
+    "additionalProperties": false
+}
