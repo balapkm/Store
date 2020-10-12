@@ -101,7 +101,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
  *                              Serve front-end content
  ***********************************************************************************/
 
-const viewsDir = path.join(__dirname, 'store-views/build');
+const viewsDir = path.join(__dirname, 'views/build');
 app.use(express.static(viewsDir));
 app.get('*', (req: Request, res: Response) => {
     res.sendFile('index.html', {root: viewsDir});
