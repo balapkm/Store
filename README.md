@@ -50,6 +50,21 @@ I used the react framework as front end.
   - services - Common function of the project
   - store - redux store files are available here.
 
+**Execution**
+  
+Installation
+
+  cd src/views
+  yarn install
+
+Run Development 
+
+  yarn start
+
+Production
+
+  yarn build
+
 # Back End Docs
 
 I used the Node js and Mysql in back end.
@@ -81,3 +96,17 @@ I used the Node js and Mysql in back end.
   - routes - list of routes for API
   - shared - list of common function,config in that folder
   - views - React framework
+
+**Execution**
+  
+Installation
+
+  npm install
+
+Run Development 
+
+  npm run start:dev
+
+Production
+
+  npm start
