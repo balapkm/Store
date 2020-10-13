@@ -108,3 +108,7 @@ I used the Node js and Mysql in back end.
 **Production Build**
 
   npm start
+
+**Test case**
+
+  npm run test
