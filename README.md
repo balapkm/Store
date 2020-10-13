@@ -49,19 +49,17 @@ I used the react framework as front end.
   - sagas - Redux saga folder for async process.
   - services - Common function of the project
   - store - redux store files are available here.
-
-**Execution**
-  
-Installation
+ 
+**Installation**
 
   cd src/views
   yarn install
 
-Run Development 
+**Run Development**
 
   yarn start
 
-Production
+**Production**
 
   yarn build
 
@@ -97,16 +95,14 @@ I used the Node js and Mysql in back end.
   - shared - list of common function,config in that folder
   - views - React framework
 
-**Execution**
-  
-Installation
+**Installation**
 
   npm install
 
-Run Development 
+**Run Development**
 
   npm run start:dev
 
-Production
+**Production Build**
 
   npm start
