@@ -1,7 +1,7 @@
 # Question and Answer
 
 # What would you add to your solution if you had more time?
-	I would like add more project features, SASS precomplier, Unit testing,Client side error logging method (trackjs,catchjs) and more secuirty features.
+	I would like add more project features, SASS precomplier, Unit testing,Client side error logging method (trackjs,catchjs), PWA features for mobile support and more secuirty features like RSA encryption, JWT token etc
 
 # What's your favourite programming language? Why?
 	My favourite programming language is Javascript, because if you can learn JS, we can use it in different platform like Web (Client side and Server side), Mobile (React Native,Ionic e.t.c) and Desktop (Electron)
