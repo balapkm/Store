@@ -42,7 +42,7 @@
 			},
 			{
 				"name" : "React Native",
-				"experience" : "1 years"
+				"experience" : "6 Months"
 			},
 			{
 				"name" : "Node Js",
