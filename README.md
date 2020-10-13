@@ -27,7 +27,7 @@ Authorization
 
 # Front End Docs
 
-I used the react framework as front end    
+I used the react framework as front end. 
 
 **Plugins** 
   
@@ -38,3 +38,46 @@ I used the react framework as front end
   - Jquery - Controll the DOM
   - Typescript - Data type checking and handle oops concept
   - React Router DOM - Handle the navigation from one page into another.
+
+**Folders** 
+    
+  Inside the *views/src/*
+  - actions - Redux actions are available here.
+  - components - list of component are available here.
+  - config - front end configuration are available here
+  - reducers - Redux redux function are available here. 
+  - sagas - Redux saga folder for async process.
+  - services - Common function of the project
+  - store - redux store files are available here.
+
+# Back End Docs
+
+I used the Node js and Mysql in back end.
+
+**Plugins** 
+  
+  - Typescript - Data type checking and handle oops concept
+  - ajv - Handling the API request validation 
+  - cookie-parser - Parse the cookies
+  - cors - Handle the CORS / Allow the headers and origin
+  - express-basic-auth - Used for basic autheciation
+  - express-rate-limit - limit the request from users
+  - morgan - Logging purpose
+  - helmet - Set secure response headers
+  - nodejs-base64 - Do base64 encode and decode the request
+  - winston - Logging purpose
+  - sequelize - ORM concept for mysql
+
+**Folders** 
+    
+  - logs - each logs are write here
+  - env - environment configuration 
+
+  Inside the *src/*
+
+  - json_schemas - List of json schema are available here. 
+  - middlewares - List of middleware of express routing
+  - models - sequelize models are available here.  
+  - routes - list of routes for API
+  - shared - list of common function,config in that folder
+  - views - React framework
