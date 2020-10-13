@@ -22,5 +22,42 @@
 
 # Please describe yourself using either XML or JSON.
 	{
-		name : 'Balakumaran'
+		"name" : "Balakumaran G",
+		"skills_experience" : [
+			{
+				"name" : "PHP",
+				"experience" : "4 years"
+			},
+			{
+				"name" : "Angular Js",
+				"experience" : "1 years"
+			},
+			{
+				"name" : "Angular",
+				"experience" : "1.5 years"
+			},
+			{
+				"name" : "React Js",
+				"experience" : "1 years"
+			},
+			{
+				"name" : "React Native",
+				"experience" : "1 years"
+			},
+			{
+				"name" : "Node Js",
+				"experience" : "6 Months"
+			},
+			{
+				"name" : "MySQL",
+				"experience" : "2 years"
+			}
+		],
+		"list_of_employer" : [
+			{
+				"name" : "INFINITI SOFTWARE SOLUTIONS"
+				"start_date" : "JUN-2015",
+				"last_date": "till now"
+			}
+		]
 	}
