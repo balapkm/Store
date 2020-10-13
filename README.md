@@ -10,6 +10,8 @@ Store App is managing the store information.
 
 # Demo!
 
+![Demo](../main/docs/demo.gif)
+
 # API Docs
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/64f0ec9f938782838df7#?env%5BDEVELOPMENT%5D=W3sia2V5IjoiZW5kX3BvaW50IiwidmFsdWUiOiJodHRwOi8vbG9jYWxob3N0OjQwMDAvIiwiZW5hYmxlZCI6dHJ1ZX1d)
