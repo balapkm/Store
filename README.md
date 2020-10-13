@@ -10,7 +10,7 @@ Store App is managing the store information.
 
 # Demo!
 
-![Demo](../main/docs/demo.gif)
+![Demo](../master/docs/demo.gif)
 
 # API Docs
 
