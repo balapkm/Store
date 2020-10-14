@@ -117,14 +117,14 @@ const Store:FunctionComponent = () => {
       <div className='row mt-4'>
         <div className='col-lg-12 mb-3'>
           <h4>
-            <b>List of store</b>
+            <b role='title'>List of store</b>
             <span className='float-right cur-p create-link' onClick={() => onCreate()}>Create Store</span>
           </h4>
         </div>
         {/* looping the store */}
         {storeData.store.map((v: any,k: any) => {
             return (
-              <div className='col-lg-4 mb-4' key={k}>
+              <div className='col-lg-4 mb-4' data-testid='store' key={k}>
                 <div className='card shadow bg-white'>
                   <div className='card-body'>
                     <h6>
