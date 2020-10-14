@@ -17,7 +17,7 @@ configuration.database = {
     username: 'root',
     password: 'infiniti',
     models: [__dirname + '/../models/'],
-    db_sync : false,
+    db_sync : false, // true means it will create the table
 }
 
 /**
