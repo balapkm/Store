@@ -9,7 +9,6 @@ import storeReducer from '../../reducers/store';
 
 global.MutationObserver = window.MutationObserver;
 
-
 function renderWithProviders(ui: any, reduxState: any) {
   const store = createStore(storeReducer, reduxState);
   return render(<Provider store={store}>{ui}</Provider>);

@@ -65,6 +65,10 @@ I used the react framework as front end.
 
   yarn build
 
+**Test**
+
+  yarn test
+
 # Back End Docs
 
 I used the Node js and Mysql in back end.

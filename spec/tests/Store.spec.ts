@@ -7,7 +7,7 @@ const headers = {
     'Content-Type' : 'application/json'
 };
 
-describe("Get Store", () => {
+describe('Get Store', () => {
     it('get store details with empty input', (done) => {
         const data = base64encode(JSON.stringify({}));
         request.post({
@@ -15,13 +15,13 @@ describe("Get Store", () => {
             body: {data},
             json: true,
             headers
-        }, function (error, response) {
+        }, (error, response) => {
             expect(response.statusCode).toEqual(200);
             expect(response.body.data.length).toBeGreaterThan(0);
             expect(response.body.status).toEqual(0);
             response.body.data.map((v,k) => {
                 expect(v.id).toMatch(/\d{1,}/);
-                expect(v.name.length).toBeGreaterThan(4);    
+                expect(v.name.length).toBeGreaterThan(4);
             });
             done();
         });
@@ -34,12 +34,12 @@ describe("Get Store", () => {
             body: {data},
             json: true,
             headers
-        }, function (error, response) {
+        }, (error, response) => {
             expect(response.statusCode).toEqual(200);
             expect(response.body.data.length).toEqual(1);
             expect(response.body.status).toEqual(0);
             expect(response.body.data[0].id).toEqual(1);
-            expect(response.body.data[0].name).toContain("Jaya");
+            expect(response.body.data[0].name).toContain('Jaya');
             done();
         });
     });
@@ -56,7 +56,7 @@ describe("Get Store", () => {
             body: {data},
             json: true,
             headers : wheaders
-        }, function (error, response) {
+        }, (error, response) => {
             expect(response.statusCode).toEqual(401);
             expect(response.body.status).toEqual(1);
             expect(response.body.data.msg).toEqual('Unauthozied user');
